@@ -9,15 +9,33 @@
   <div id="app">
     <v-app>
       <main>
-        <v-container>Hello world</v-container>
+        <v-container>
+          <h1 style='text-align:center'>~ ROSE KUSH ~</h1>
+          <v-parallax src="/splash.jpg">
+            <div class="vimeoBadge horizontal">
+            </div>
+            </v-parallax>
+
+          <div id="badge">
+          <script src="https://vimeo.com/rosekush/badgeo/?script=1&badge_layout=horizontal&badge_quantity=6&badge_size=80&badge_stream=uploaded&show_titles=no&badge_album=4825643"></script>
+          </div>
+
+        </v-container>
+
       </main>
     </v-app>
   </div>
- 
+
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
   <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
   <script>
     new Vue({ el: '#app' })
   </script>
+  <style>
+    #app {
+//      background-image:url('splash.jpg');
+      background-size: 100%;
+  }
+  </style>
 </body>
 </html>
